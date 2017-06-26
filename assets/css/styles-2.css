@@ -410,16 +410,8 @@ a.btn:hover {
   color: #666;
 }
 
-.row {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.item col-xs-12 col-sm-4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.item col-xs-12 col-sm-4 inner-item {
+   
 }
 
 .skills-section .item-inner {
@@ -541,6 +533,15 @@ a.btn:hover {
   height: 10px;
   margin: 0;
   margin-right: 5px;
+}
+
+.figure {
+    text-align: center;
+}
+.portfolio-icons img {
+    display: inline;
+    margin:auto;
+    
 }
 .portfolio-section .filters {
   list-style: none;
