@@ -154,10 +154,10 @@ a.btn:hover {
 }
 .header .profile-image {
   position: absolute;
-  width: 160px;
-  height: 160px;
-  top: -80px;
-  margin-left: -80px;
+  width: 200px;
+  border-radius: 100%;
+  top: -110px;
+  margin-left: -100px;
   left: 50%;
 }
 .header .name {
@@ -541,6 +541,7 @@ a.btn:hover {
 .portfolio-icons img {
     display: inline;
     margin:auto;
+    margin-top: 20px;
     
 }
 .portfolio-section .filters {
@@ -633,10 +634,11 @@ a.btn:hover {
   color: #666;
 }
 .contact-section .intro .profile-image {
-  width: 120px;
-  height: 120px;
+  width: 180px;
+    border-radius: 50%;
   position: absolute;
-  left: 30px;
+  left: -15px;
+    bottom: 40px;
 }
 .contact-section .intro p {
   margin-bottom: 15px;
