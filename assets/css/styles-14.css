@@ -154,10 +154,10 @@ a.btn:hover {
 }
 .header .profile-image {
   position: absolute;
-  width: 160px;
-  height: 160px;
-  top: -80px;
-  margin-left: -80px;
+  width: 200px;
+  border-radius: 100%;
+  top: -110px;
+  margin-left: -100px;
   left: 50%;
 }
 .header .name {
@@ -383,6 +383,7 @@ a.btn:hover {
 .timeline .job-desc {
   color: #666;
 }
+
 .education-section .item {
   margin-bottom: 45px;
 }
@@ -416,7 +417,7 @@ a.btn:hover {
   font-weight: 300;
 }
 .skills-section .top-skills {
-  margin-bottom: 60px;
+  
 }
 .skills-section .top-skills .item {
   margin-bottom: 45px;
@@ -524,6 +525,13 @@ a.btn:hover {
   margin: 0;
   margin-right: 5px;
 }
+
+.buffer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: ;
+}
+
 .portfolio-section .filters {
   list-style: none;
   margin: 0 auto;
@@ -614,10 +622,11 @@ a.btn:hover {
   color: #666;
 }
 .contact-section .intro .profile-image {
-  width: 120px;
-  height: 120px;
+   width: 180px;
+    border-radius: 50%;
   position: absolute;
-  left: 30px;
+  left: 20px;
+    bottom: 40px;
 }
 .contact-section .intro p {
   margin-bottom: 15px;
@@ -700,6 +709,7 @@ a.btn:hover {
   }
   .section-title {
     font-size: 20px;
+      
   }
   .timeline {
     margin-left: 0;
