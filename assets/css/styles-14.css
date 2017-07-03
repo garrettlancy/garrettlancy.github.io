@@ -622,11 +622,11 @@ a.btn:hover {
   color: #666;
 }
 .contact-section .intro .profile-image {
-   width: 180px;
-    border-radius: 50%;
   position: absolute;
   left: 20px;
-    bottom: 40px;
+    width: 150px;
+    border-radius: 50%;
+    
 }
 .contact-section .intro p {
   margin-bottom: 15px;
