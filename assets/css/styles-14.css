@@ -515,10 +515,8 @@ a.btn:hover {
   margin-right: 5px;
 }
 
-.buffer {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: ;
+.buffer img {
+   padding: 20%;
 }
 
 .portfolio-section .filters {
